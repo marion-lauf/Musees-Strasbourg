@@ -105,15 +105,16 @@ $block-grid-max: 8;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
-$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$font-family: 'Nunito', sans-serif;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
+    'h1': 36,
+    'h2': 21,
     'h3': 19,
     'h4': 18,
     'h5': 17,
     'h6': 16,
+    'p': 18,
   ),
   medium: (
     'h1': 36,
@@ -122,6 +123,7 @@ $header-sizes: (
     'h4': 25,
     'h5': 20,
     'h6': 16,
+    'p': 18,
   ),
 );
 $header-color: inherit;
